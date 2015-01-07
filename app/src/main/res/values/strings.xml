@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">DoggyDogWorld</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="hello_world">All output is currently in the Log, nothing to see here</string>
     <string name="action_settings">Settings</string>
 
 </resources>
