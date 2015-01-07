@@ -27,7 +27,7 @@ public class MainActivity extends ActionBarActivity {
 
         int x = 3;
         int answer = x + 1;
-        Log.d("MainActivity", "The answer is " + answer);
+        Log.d("MainActivity", String.format("The answer is %d", answer));
     }
 
 
