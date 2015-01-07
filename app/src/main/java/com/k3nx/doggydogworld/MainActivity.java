@@ -16,10 +16,12 @@ public class MainActivity extends ActionBarActivity {
 
         Dog myDog = new Dog();
         myDog.name = "Doge";
+        myDog.numberOfLegs = 3;
         myDog.bark();
 
         Dog yourDog = new Dog();
         yourDog.name = "Rex";
+        yourDog.breed = "Mutt";
         yourDog.bark();
 
         int x = 3;
