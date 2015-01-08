@@ -24,6 +24,7 @@ public class MainActivity extends ActionBarActivity {
         yourDog.name = "Rex";
         yourDog.breed = "Mutt";
         yourDog.bark();
+        yourDog.barkAt("a cat");
 
         int x = 3;
         int answer = x + 1;
