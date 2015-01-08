@@ -8,18 +8,33 @@ import android.util.Log;
  * LAME
  */
 public class Dog {
-    String name = "unnamed";
-    int age;
-    int numberOfLegs = 4;
-    String breed;
+    private String name = "unnamed";
+    private int age = 1;
+    private int numberOfLegs = 4;
+    private String breed = "mutt";
+
+    Dog() {
+        Log.d("Dog", "Constricting...");
+    }
+
+    Dog(String dogName) {
+        name = dogName;
+    }
+
+    Dog(String dogName, int dogAge) {
+        name = dogName;
+        age = dogAge;
+    }
 
     public void bark() {
-        String bark = name + " barked";
+        String bark = this.name + " barked";
         Log.d("Dog", bark);
     }
 
     public void barkAt(String victim) {
-        String bark = name + " barked at " + victim;
+        String bark = this.name + " barked at " + victim;
         Log.d("Dog", bark);
     }
+
+
 }
