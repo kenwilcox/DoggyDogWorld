@@ -18,12 +18,12 @@ public class MainActivity extends ActionBarActivity {
         myDog.name = "Doge";
         myDog.numberOfLegs = 3;
         myDog.age = 1;
-        Log.d("MainActivity", myDog.bark());
+        myDog.bark();
 
         Dog yourDog = new Dog();
         yourDog.name = "Rex";
         yourDog.breed = "Mutt";
-        Log.d("MainActivity", yourDog.bark());
+        yourDog.bark();
 
         int x = 3;
         int answer = x + 1;
