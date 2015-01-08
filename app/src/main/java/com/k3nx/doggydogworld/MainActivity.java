@@ -16,6 +16,7 @@ public class MainActivity extends ActionBarActivity {
 
         Dog myDog = new Dog("Doge", 3);
         myDog.bark();
+        myDog.info();
 
         Dog yourDog = new Dog("Rex");
         yourDog.bark();

@@ -18,10 +18,12 @@ public class Dog {
     }
 
     Dog(String dogName) {
+        this();
         name = dogName;
     }
 
     Dog(String dogName, int dogAge) {
+        this();
         name = dogName;
         age = dogAge;
     }
@@ -34,7 +36,11 @@ public class Dog {
     public void barkAt(String victim) {
         String bark = this.name + " barked at " + victim;
         Log.d("Dog", bark);
+        Log.d("Dog", victim + " stupid " + breed);
     }
 
-
+    public void info() {
+        String info = this.name + " is " + age + " year(s) old and has " + numberOfLegs + " legs";
+        Log.d("Dog", info);
+    }
 }
