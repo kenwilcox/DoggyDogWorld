@@ -36,7 +36,7 @@ public class Dog {
     public void barkAt(String victim) {
         String bark = this.name + " barked at " + victim;
         Log.d("Dog", bark);
-        Log.d("Dog", victim + " stupid " + breed);
+        Log.d("Dog", victim + " says 'stupid " + breed + "!'");
     }
 
     public void info() {
